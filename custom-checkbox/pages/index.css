@@ -7,3 +7,9 @@
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/block/block.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__checkbox-1/form__checkbox-1.css);
+@import url(../blocks/form/__checkbox-1/_state/form__checkbox-1_state_hidden.css);
+@import url(../blocks/form/__checkbox-1/_state/form__checkbox-1_state_visible.css);
