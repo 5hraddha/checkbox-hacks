@@ -13,6 +13,7 @@
 /* On mouse over */
 .form__checkbox-1_state_hidden:hover ~ .form__checkbox-1_state_visible {
   box-shadow: inset 0 0 0 1px #ff0046;
+  cursor: pointer;
 }
 
 /* Checked display style */
