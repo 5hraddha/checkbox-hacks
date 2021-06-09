@@ -1,0 +1,29 @@
+.page {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  background:
+  linear-gradient(324deg, #FFF 4%,   transparent 4%) -70px 43px,
+  linear-gradient( 36deg, #FFF 4%,   transparent 4%) 30px 43px,
+  linear-gradient( 72deg, #f1eadb 8.5%, transparent 8.5%) 30px 43px,
+  linear-gradient(288deg, #f1eadb 8.5%, transparent 8.5%) -70px 43px,
+  linear-gradient(216deg, #f1eadb 7.5%, transparent 7.5%) -70px 23px,
+  linear-gradient(144deg, #f1eadb 7.5%, transparent 7.5%) 30px 23px,
+
+  linear-gradient(324deg, #FFF 4%,   transparent 4%) -20px 93px,
+  linear-gradient( 36deg, #FFF 4%,   transparent 4%) 80px 93px,
+  linear-gradient( 72deg, #f1eadb 8.5%, transparent 8.5%) 80px 93px,
+  linear-gradient(288deg, #f1eadb 8.5%, transparent 8.5%) -20px 93px,
+  linear-gradient(216deg, #f1eadb 7.5%, transparent 7.5%) -20px 73px,
+  linear-gradient(144deg, #f1eadb 7.5%, transparent 7.5%) 80px 73px;
+  background-color: #FFF;
+  background-size: 100px 100px;
+}

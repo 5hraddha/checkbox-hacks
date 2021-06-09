@@ -1,0 +1,55 @@
+.form__checkbox-1_state_visible {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Styles of the rectangular strip when the checkbox is unchecked */
+.form__checkbox-1_state_visible::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #ebe9e9;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4),
+              0 0 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s 0.3s linear;
+}
+
+/* Styles of the circular disc when the checkbox is unchecked */
+.form__checkbox-1_state_visible::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+  transition: left 0.3s ease-in;
+}
+
+/* Styles of the rectangular strip when the checkbox is checked */
+.form__checkbox-1_state_hidden:checked ~ .form__checkbox-1_state_visible::before {
+  background-color: #2ED2A0;
+  box-shadow: inset 0 0 0 1px rgba(33, 170, 128, 0.9),
+              0 0 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s 0.3s linear;
+}
+
+/* Styles of the circular disc when the checkbox is checked */
+.form__checkbox-1_state_hidden:checked ~ .form__checkbox-1_state_visible::after {
+  top: 0;
+  left: 52px;
+  transition: left 0.3s ease-in;
+}
